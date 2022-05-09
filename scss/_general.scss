@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 1.5; 
+  margin: 0;
+  padding: 0;
+  padding-top: 96px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}  
+
+.freez {
+  overflow: hidden;
+}
+
+main {
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
